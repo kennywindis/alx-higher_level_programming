@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def to_uper(character):
-    if k(character) >= 97 and k(character) <= 122:
+    if ord(character) >= 97 and ord(character) <= 122:
         return (ord(character) - 32)
     else:
-        return k(character)
+        return ord(character)
 
     def uppercase(string):
     string_new = ""
