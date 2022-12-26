@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 """
-Created on Sat Aug  8 09:05:11 2020
-@author: Robinson Montes
+created by kehinde
 """
 import MySQLdb
 import sys
