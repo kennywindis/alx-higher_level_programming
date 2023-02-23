@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-"""
-contains the MyList class
-"""
-
+# -*- coding: utf-8 -*-
 
 class MyList(list):
-    """a subclass of list"""
-    def __init__(self):
-        """initializes the object"""
-        super().__init__()
-
+    """
+     class MyList that inherits from list
+    """
     def print_sorted(self):
-        """prints the sorted list"""
-        print(sorted(self))
+        """
+        Public instance method that prints sorted list
+        """
+        list_copy = self[:]
+        list_copy.sort()
+        print(list_copy)
